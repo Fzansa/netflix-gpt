@@ -2,6 +2,19 @@
 
 -Create React App
 -Configured TailwindCSS
+-login/sign up page
+-uref hook use for getting input data
+-validation
+-firebase configuration
+-create sign up / sign in account using firebase
+-setup redux tollkit with useslice
+-impolement signout 
+-update profile
+-bug fixed -> signup user display name and profile picture update
+-bugfix -> if user not login redirect /browse to the /login and vice-verca
+
+
+
 
 # Features
 
