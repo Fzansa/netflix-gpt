@@ -12,7 +12,19 @@
 -update profile
 -bug fixed -> signup user display name and profile picture update
 -bugfix -> if user not login redirect /browse to the /login and vice-verca
-
+-unsbscribed to the onauthchange when our component is unmounting
+-add hardcoded value to the constant file
+-register in tmdb and create app and get access token
+-get data from tmdb movies list now playing 
+-create custom hoook
+-create a movie slice
+-update data to store
+-planning for main container and secondry container
+-fetch data for trainler 
+-update store data for trailer video
+-embeded yt video 
+-make it autoplay and mute
+-addedd tailwind css to make container look awesome
 
 
 

@@ -5,6 +5,7 @@ import { auth } from '../utils/firebase';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../utils/userSlice';
+import { PHOTO_URL } from '../utils/contants';
 
 const Login = () => {
     const dispatch = useDispatch();
@@ -13,7 +14,6 @@ const Login = () => {
     const name = useRef(null);
     const email = useRef(null);
     const password = useRef(null);
-    // console.log(password.current.value)
 
     function handleSignIn() {
         setIsSignIn(!isSignIn);
@@ -33,7 +33,7 @@ const Login = () => {
                     const user = userCredential.user;
                     updateProfile(user, {
                         displayName: name.current.value,
-                        photoURL: "https://fz-ansari.github.io/FZPortfolio/img/simple.png"
+                        photoURL:PHOTO_URL
                     }).then(() => {
                         const { uid, email, photoURL, displayName } = auth.currentUser;
                         dispatch(addUser({
