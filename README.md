@@ -32,6 +32,15 @@
 -usePopularMovies custom hook
 -useUpcomingMovies custom hook
 -useTopRatedMovies custom Hook
+-GPT SEARCH FEATURE
+-created gptSearch page
+-created gptSearchBar components and design a searcbar
+-created gptSlice and added to store 
+-now making our gpt page to multiLanguage 
+-dropdown to select language in header
+-language constant a seprate file 
+-configSlice for manging language
+
 
 # Features
 
